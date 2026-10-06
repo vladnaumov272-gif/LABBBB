@@ -1,0 +1,40 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor "Судья" as User1
+actor "Участник" as User2
+package "Система" {
+    usecase "Вход в систему" as UC_Login
+    usecase "Регистрация" as UC_Register
+    usecase "Добавление участника" as UC_Keepsportsmen
+    usecase "Добавление результата" as UC_Keepresult
+    usecase "Изменение результата" as UC_Correctresult
+    
+    usecase "Изменение положения в турнирной таблице" as UC_Correcttabl
+    usecase "Удаление участника" as UC_Deletsportsmen
+    usecase "Обьявление победителей и призеров" as UC_Winners
+    
+    usecase "Поиск участника" as UC_SourceSportsmen
+    usecase "Поиск результата" as UC_Soerceresult
+    
+    usecase "Просмотр результата" as UC_Sawres
+
+    usecase "Просмотр места в турнирной таблице" as UC_Sawtabl
+}
+User1 --> UC_Login
+User1 --> UC_Register
+User2 --> UC_Login
+User1 --> UC_Keepsportsmen
+User1 --> UC_Correctresult
+User1 --> UC_Keepresult
+User1 --> UC_Correcttabl
+User1 --> UC_Deletsportsmen
+User1 --> UC_Winners
+User1 --> UC_SourceSportsmen
+User2 --> UC_SourceSportsmen
+User1 --> UC_Soerceresult
+User2 --> UC_Soerceresult
+User2 --> UC_UC_Sawres
+User2 --> UC_Sawtabl
+
+@enduml
