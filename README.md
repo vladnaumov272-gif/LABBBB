@@ -56,3 +56,4 @@ python src/main.py
 3.Слой данных: Хранит информацию об участниках, их положение в турнирной таблице, их результатах и о призовых местах.
 
 ![Диаграмма Use Case](docs/diagrams/diagrams.puml)
+![ЕР диаграмма](docs/diagrams/sql-import-sqlite.png)
