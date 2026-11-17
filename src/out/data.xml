@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<participants>
+  <participant>
+    <participant_id>1</participant_id>
+    <full_name>Ivan Ivanov</full_name>
+    <date_of_birth>2008-01-01</date_of_birth>
+    <results>
+      <result>
+        <competition_name>swimming</competition_name>
+        <competition_date>2026-01-01</competition_date>
+        <result>68.0</result>
+      </result>
+      <result>
+        <competition_name>swimming</competition_name>
+        <competition_date>2026-01-01</competition_date>
+        <result>1000.0</result>
+      </result>
+      <result>
+        <competition_name>swimming</competition_name>
+        <competition_date>2026-01-01</competition_date>
+        <result>3000.0</result>
+      </result>
+      <result>
+        <competition_name>wwwww</competition_name>
+        <competition_date>1111-11-11</competition_date>
+        <result>30.0</result>
+      </result>
+      <result>
+        <competition_name>wwwww</competition_name>
+        <competition_date>1111-11-11</competition_date>
+        <result>3000.0</result>
+      </result>
+      <result>
+        <competition_name>wwwww</competition_name>
+        <competition_date>1111-11-11</competition_date>
+        <result>3000.0</result>
+      </result>
+      <result>
+        <competition_name>wwwww</competition_name>
+        <competition_date>1111-11-11</competition_date>
+        <result>3000.0</result>
+      </result>
+      <result>
+        <competition_name>wwwww</competition_name>
+        <competition_date>1111-11-11</competition_date>
+        <result>3000.0</result>
+      </result>
+    </results>
+  </participant>
+  <participant>
+    <participant_id>2</participant_id>
+    <full_name>Egor Ivanov</full_name>
+    <date_of_birth>2006-05-09</date_of_birth>
+    <results />
+  </participant>
+  <participant>
+    <participant_id>6</participant_id>
+    <full_name>wwwwww</full_name>
+    <date_of_birth>2323-33-43</date_of_birth>
+    <results>
+      <result>
+        <competition_name>wwwww</competition_name>
+        <competition_date>1111-11-11</competition_date>
+        <result>55.5</result>
+      </result>
+    </results>
+  </participant>
+</participants>
